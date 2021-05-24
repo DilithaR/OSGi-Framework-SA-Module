@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AdminConsumer
+Bundle-SymbolicName: AdminConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: AdminConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: AdminConsumer
+Import-Package: com.institute.midServer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

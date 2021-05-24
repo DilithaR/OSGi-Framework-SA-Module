@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InstituteMidServer
+Bundle-SymbolicName: InstituteMidServer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: InstituteMidserverActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: InstituteMidServer
+Import-Package: com.institute.courseProducer,
+ com.institute.resourcesProducer,
+ com.institute.tutorProducer,
+ com.institute.tutorialProducer,
+ com.instiute.quizProducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.institute.midServer
